@@ -1,4 +1,4 @@
-## Finding the Missing Number in the Array
+## This is code finds the first missing number (greater than zero) in any given array
 ### Question
 Write a function.
 
