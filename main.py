@@ -17,5 +17,4 @@ def check_array(num):
 
 
 numbers = [-2, 5, 12, 7, 1, 3, -4, 2, 6, 8]
-numbers=[1, 3, 4, 1, 5, 2,7]
 print(check_array(numbers))
