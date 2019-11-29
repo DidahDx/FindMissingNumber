@@ -1,10 +1,10 @@
-# checks for the first missing number in array
-def check_array(num):
+# checks for the first missing number in list
+def check_list(num):
     # check if array only contains numbers less than zero
     if max(num) > 0 or min(num) > 0:
-        # loop through from 1 to max value in array
+        # loop through from 1 to max value in list
         for x in range(1, max(num) + 1):
-            # check if the number is in the array
+            # check if the number is in the list
             if x in num:
                 # check if loop reaches the max value
                 if x == max(num):
@@ -16,5 +16,5 @@ def check_array(num):
         return 1
 
 
-numbers = [-2, 5, 12, 7, 1, 3, -4, 2, 6, 8]
-print(check_array(numbers))
+numbers = [-2,  12, 7, 1, 3, -4, 2, 6, 8]
+print(check_list(numbers))
