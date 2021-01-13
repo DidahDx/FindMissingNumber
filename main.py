@@ -15,6 +15,18 @@ def check_list(num):
     else:
         return 1
 
+# best on performance 
+def solution(A):
+   a=frozenset(sorted(A))
+   m=max(a)
+   if m>0:
+       for i in range(1,m):
+           if i not in a:
+              return i
+       else:
+          return m+1
+   else:
+       return 1
 
 numbers = [-2,  12, 7, 1, 3, -4, 2, 6, 8]
 print(check_list(numbers))
